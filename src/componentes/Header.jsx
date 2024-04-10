@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export const Header = () => {
     return(
+        <div>
         <header>
         <nav>
 
@@ -31,7 +32,14 @@ export const Header = () => {
         </nav>
 
     </header>
+    <div class="container portada">
+        <img src="src/assets/animals_dog.svg"  class="svg1" alt="Imagen Portada perro"/>
 
+        <img src="src/assets/animals_cat.svg"  class="svg2" alt="Imagen Portada gato"/>
+
+
+    </div>
+    </div>
     )
 
 }
